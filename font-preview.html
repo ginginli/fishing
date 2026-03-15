@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Font Preview</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700;900&family=Space+Grotesk:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;700;800&family=Unbounded:wght@400;700;900&family=Rajdhani:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: linear-gradient(160deg, #020b18 0%, #041428 40%, #061a2e 70%, #030d1a 100%);
+      color: #e8f0ff;
+      font-family: sans-serif;
+      padding: 48px 24px;
+      min-height: 100vh;
+    }
+    h1 {
+      text-align: center;
+      font-size: 1rem;
+      color: #7a90b8;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 48px;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+      gap: 24px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .card {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(0,200,255,0.12);
+      border-radius: 16px;
+      padding: 36px 32px;
+    }
+    .card__label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #7a90b8;
+      margin-bottom: 20px;
+    }
+    .card__title {
+      font-size: 2.6rem;
+      font-weight: 700;
+      line-height: 1.1;
+      letter-spacing: -1px;
+      margin-bottom: 12px;
+    }
+    .card__title .hl {
+      background: linear-gradient(135deg, #00c8ff 0%, #0066ff 60%, #ff6b00 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .card__sub {
+      font-size: 0.88rem;
+      color: #7a90b8;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+    .card__nav {
+      display: flex;
+      gap: 16px;
+      font-size: 0.82rem;
+      font-weight: 700;
+      color: #7a90b8;
+    }
+    .card__nav span { color: #00c8ff; }
+
+    .f-outfit      { font-family: 'Outfit', sans-serif; }
+    .f-grotesk     { font-family: 'Space Grotesk', sans-serif; }
+    .f-jakarta     { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .f-unbounded   { font-family: 'Unbounded', sans-serif; font-size: 1.9rem !important; letter-spacing: -0.5px !important; }
+    .f-rajdhani    { font-family: 'Rajdhani', sans-serif; font-size: 3rem !important; }
+  </style>
+</head>
+<body>
+  <h1>Font Preview — pick your favourite</h1>
+  <div class="grid">
+
+    <div class="card">
+      <div class="card__label">① Outfit</div>
+      <div class="card__title f-outfit">Titan Fishing<br /><span class="hl">2026 — Free Rewards</span></div>
+      <div class="card__sub f-outfit">几何感强，字形开阔，渐变色显色好，可读性高。</div>
+      <div class="card__nav f-outfit"><span>Home</span> Codes 🎁 Play Now</div>
+    </div>
+
+    <div class="card">
+      <div class="card__label">② Space Grotesk（当前）</div>
+      <div class="card__title f-grotesk">Titan Fishing<br /><span class="hl">2026 — Free Rewards</span></div>
+      <div class="card__sub f-grotesk">工业感，字母间距宽松，适合游戏站风格。</div>
+      <div class="card__nav f-grotesk"><span>Home</span> Codes 🎁 Play Now</div>
+    </div>
+
+    <div class="card">
+      <div class="card__label">③ Plus Jakarta Sans</div>
+      <div class="card__title f-jakarta">Titan Fishing<br /><span class="hl">2026 — Free Rewards</span></div>
+      <div class="card__sub f-jakarta">现代圆润，越南文混排友好，阅读舒适。</div>
+      <div class="card__nav f-jakarta"><span>Home</span> Codes 🎁 Play Now</div>
+    </div>
+
+    <div class="card">
+      <div class="card__label">④ Unbounded</div>
+      <div class="card__title f-unbounded">Titan Fishing<br /><span class="hl">2026 — Free Rewards</span></div>
+      <div class="card__sub f-jakarta">宽体字，每个字母占位大，渐变效果最突出。</div>
+      <div class="card__nav f-jakarta"><span>Home</span> Codes 🎁 Play Now</div>
+    </div>
+
+    <div class="card">
+      <div class="card__label">⑤ Rajdhani</div>
+      <div class="card__title f-rajdhani">Titan Fishing<br /><span class="hl">2026 — Free Rewards</span></div>
+      <div class="card__sub f-rajdhani">科技/游戏风，细节锐利，Roblox 游戏站氛围强。</div>
+      <div class="card__nav f-rajdhani"><span>Home</span> Codes 🎁 Play Now</div>
+    </div>
+
+  </div>
+</body>
+</html>
