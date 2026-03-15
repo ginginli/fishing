@@ -20,10 +20,11 @@ User-agent: Claude-Web
 User-agent: Anthropic-AI
 User-agent: ClaudeBot
 
-# Google AI
+# Google AI (Gemini, SGE, Google-Extended)
 User-agent: GoogleOther
 User-agent: Google-Extended
 User-agent: Googlebot-Image
+User-agent: Gemini
 
 # Microsoft / Bing / Copilot
 User-agent: Bingbot
