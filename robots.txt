@@ -8,15 +8,80 @@ Disallow: /font-preview.html
 # 网站地图
 Sitemap: https://titanfishing.org/sitemap.xml
 
-# AI 爬虫规则
+# ===== AI 爬虫规则 =====
+
+# OpenAI / ChatGPT
 User-agent: GPTBot
+User-agent: ChatGPT-User
+User-agent: OAI-SearchBot
+
+# Anthropic / Claude
 User-agent: Claude-Web
 User-agent: Anthropic-AI
-User-agent: PerplexityBot
+User-agent: ClaudeBot
+
+# Google AI
 User-agent: GoogleOther
+User-agent: Google-Extended
+User-agent: Googlebot-Image
+
+# Microsoft / Bing / Copilot
+User-agent: Bingbot
+User-agent: BingPreview
+User-agent: msnbot
+
+# Perplexity
+User-agent: PerplexityBot
+
+# DuckDuckGo
 User-agent: DuckAssistBot
+User-agent: DuckDuckBot
+
+# Meta / Llama
+User-agent: Meta-ExternalAgent
+User-agent: Meta-ExternalFetcher
+
+# Apple
+User-agent: Applebot
+User-agent: Applebot-Extended
+
+# Amazon / Alexa
+User-agent: Amazonbot
+
+# Cohere
+User-agent: cohere-ai
+
+# You.com
+User-agent: YouBot
+
+# Brave
+User-agent: Brave
+
+# Common Crawl (used by many AI training datasets)
+User-agent: CCBot
+
+# Diffbot
+User-agent: Diffbot
+
+# Bytedance / Doubao
+User-agent: Bytespider
+
+# Baidu AI
+User-agent: Baiduspider
+User-agent: baiduspider-render
+
+# Yandex AI
+User-agent: YandexBot
+User-agent: YandexGPT
+
+# Naver (Korea)
+User-agent: Yeti
+
 Allow: /en/
 Allow: /vi/
 Allow: /en/codes/
 Allow: /vi/codes/
+Allow: /llms.txt
+Allow: /llms-full.txt
+Allow: /sitemap.xml
 Disallow: /font-preview.html
