@@ -1,0 +1,80 @@
+# Titan Fishing Fan Site — Full Content
+
+> Titan Fishing (Vietnamese: Câu Cá Vạn Cân) is a deep-sea fishing adventure on Roblox developed by TGaming. This unofficial fan site covers game guides, working redeem codes, tips, and FAQs in English and Vietnamese.
+
+Site URL: https://titanfishing.org
+Languages: English (/en/), Vietnamese (/vi/)
+
+---
+
+## What is Titan Fishing?
+
+Titan Fishing is a free-to-play Roblox game that replaces the slow fishing simulator formula with real-time boss battles. Every catch is a high-stakes fight against colossal sea creatures.
+
+Key mechanics:
+- Precision casting: aim for the Orange Zone to boost luck and attract rarer fish
+- Boss-style combat: click rapidly to reduce fish HP while managing line tension
+- Skill Books: unlock Z (reel speed) and X (burst damage) abilities via Skill Books
+- Rod upgrades: Basic Rod → Golden Rod progression; skip the Rusty Rod
+- Island exploration: 5+ islands with increasing difficulty and rewards
+- World bosses: Ice Boss and other Titans spawn every 30 minutes, server-wide
+
+---
+
+## Working Titan Fishing Codes (March 2026)
+
+| Code | Reward | Status |
+|------|--------|--------|
+| SORRY2026 | 1 Shark Rod Skin + 1 Mythical Book | Active |
+| 1MVISITS | 50,000 in-game money | Active |
+| 50KMONEY | 50,000 in-game money | Active |
+| MYTHICAL | 1 Mythical Book | Active |
+| 30XLUCK2026 | 30x Luck Boost | Active |
+| BIGSHARK26 | Big Shark Rod Skin | Active |
+| QUALITY4MVISITS | Exclusive 4M visits reward | Active |
+| NEWERA2026 | Exclusive New Era reward | Active |
+| LOVES2026 | Axe Rod Skin | Expired |
+| LOVE2026 | Reward | Expired |
+
+How to redeem: Launch Titan Fishing on Roblox → open Settings (⚙️) → scroll to "Enter Code" → paste code → press Claim.
+
+---
+
+## Tips for New Players
+
+- Always aim for the Orange Zone when casting to maximize luck
+- Skip the Rusty Rod — save money and go straight to the Golden Rod
+- Use bait to increase luck before casting
+- Combine 1MVISITS + 50KMONEY for 100,000 free money at the start
+- Mythical Books are the rarest skill tier — redeem SORRY2026 and MYTHICAL immediately
+- Join the developer's Discord and follow TGaming on YouTube for new codes
+
+---
+
+## FAQ
+
+Q: Is Titan Fishing free?
+A: Yes, completely free on Roblox. Some items can be purchased with in-game money earned through gameplay or redeemed via codes.
+
+Q: Can I redeem the same code twice?
+A: No, each code can only be redeemed once per account.
+
+Q: Where do new codes come from?
+A: Developer Discord, Tùng Nguyễn Facebook profile, and TGaming YouTube channel.
+
+Q: What is a Mythical Book?
+A: The rarest skill tier in Titan Fishing. Rolling one normally costs 20,000+ cash — codes give them for free.
+
+Q: How often do Titan bosses spawn?
+A: Every 30 minutes. All players on the server can participate and earn top-tier loot.
+
+---
+
+## Site Structure
+
+- https://titanfishing.org/ — auto language redirect (vi → /vi/, others → /en/)
+- https://titanfishing.org/en/ — English homepage
+- https://titanfishing.org/vi/ — Vietnamese homepage
+- https://titanfishing.org/en/codes/ — English codes page
+- https://titanfishing.org/vi/codes/ — Vietnamese codes page
+- https://titanfishing.org/sitemap.xml — XML sitemap

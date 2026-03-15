@@ -1,0 +1,22 @@
+# robots.txt - titanfishing.org
+
+# 常规搜索引擎
+User-agent: *
+Allow: /
+Disallow: /font-preview.html
+
+# 网站地图
+Sitemap: https://titanfishing.org/sitemap.xml
+
+# AI 爬虫规则
+User-agent: GPTBot
+User-agent: Claude-Web
+User-agent: Anthropic-AI
+User-agent: PerplexityBot
+User-agent: GoogleOther
+User-agent: DuckAssistBot
+Allow: /en/
+Allow: /vi/
+Allow: /en/codes/
+Allow: /vi/codes/
+Disallow: /font-preview.html
