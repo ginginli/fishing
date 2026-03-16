@@ -833,3 +833,221 @@ a { color: inherit; text-decoration: none; }
   }
   .codes-list__status { display: none; }
 }
+
+/* ===== SKILLS PAGE ===== */
+
+/* Tier tabs */
+.tier-tabs {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.tier-tab {
+  padding: 8px 20px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.04);
+  font-family: var(--font-display);
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  color: var(--text-muted);
+  transition: all 0.2s;
+}
+.tier-tab:hover { border-color: var(--border-hover); color: var(--text); }
+.tier-tab.active { background: var(--accent); color: #000; border-color: var(--accent); }
+.tier-tab[data-tier="S"].active { background: #ffd700; border-color: #ffd700; color: #000; }
+.tier-tab[data-tier="A"].active { background: #00c8ff; border-color: #00c8ff; color: #000; }
+.tier-tab[data-tier="B"].active { background: #a78bfa; border-color: #a78bfa; color: #000; }
+.tier-tab[data-tier="C"].active { background: #fb923c; border-color: #fb923c; color: #000; }
+.tier-tab[data-tier="F"].active { background: #6b7280; border-color: #6b7280; color: #fff; }
+
+/* Search bar */
+.skills-search {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 28px;
+}
+
+.skills-search__input {
+  width: 100%;
+  max-width: 480px;
+  padding: 12px 20px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+.skills-search__input::placeholder { color: var(--text-muted); }
+.skills-search__input:focus {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 3px rgba(0,200,255,0.1);
+}
+
+/* Skills table */
+.skills-table-wrap {
+  overflow-x: auto;
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+}
+
+.skills-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+.skills-table thead tr {
+  background: rgba(0,200,255,0.06);
+  border-bottom: 1px solid var(--border);
+}
+
+.skills-table th {
+  padding: 14px 20px;
+  font-family: var(--font-display);
+  font-size: 0.72rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--text-muted);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.skills-table td {
+  padding: 14px 20px;
+  border-bottom: 1px solid rgba(255,255,255,0.04);
+  vertical-align: middle;
+  color: var(--text-muted);
+  font-weight: 300;
+  line-height: 1.5;
+}
+
+.skills-table tr:last-child td { border-bottom: none; }
+.skills-table tbody tr { transition: background 0.15s; }
+.skills-table tbody tr:hover { background: rgba(255,255,255,0.04); }
+.skills-table tbody tr[data-hidden="true"] { display: none; }
+
+/* Skill name cell */
+.skill-name {
+  font-family: var(--font-display);
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--text);
+  letter-spacing: -0.2px;
+}
+
+/* Tier badge */
+.tier-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  font-family: var(--font-display);
+  font-size: 0.85rem;
+  font-weight: 900;
+}
+.tier-badge--S { background: rgba(255,215,0,0.15); color: #ffd700; border: 1px solid rgba(255,215,0,0.3); }
+.tier-badge--A { background: rgba(0,200,255,0.12); color: #00c8ff; border: 1px solid rgba(0,200,255,0.3); }
+.tier-badge--B { background: rgba(167,139,250,0.12); color: #a78bfa; border: 1px solid rgba(167,139,250,0.3); }
+.tier-badge--C { background: rgba(251,146,60,0.12); color: #fb923c; border: 1px solid rgba(251,146,60,0.3); }
+.tier-badge--F { background: rgba(107,114,128,0.15); color: #9ca3af; border: 1px solid rgba(107,114,128,0.3); }
+
+/* Rarity badge */
+.rarity-badge {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-family: var(--font-display);
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  white-space: nowrap;
+}
+.rarity-badge--common    { background: rgba(156,163,175,0.15); color: #9ca3af; border: 1px solid rgba(156,163,175,0.25); }
+.rarity-badge--uncommon  { background: rgba(74,222,128,0.12); color: #4ade80; border: 1px solid rgba(74,222,128,0.25); }
+.rarity-badge--rare      { background: rgba(96,165,250,0.12); color: #60a5fa; border: 1px solid rgba(96,165,250,0.25); }
+.rarity-badge--legendary { background: rgba(251,191,36,0.12); color: #fbbf24; border: 1px solid rgba(251,191,36,0.25); }
+.rarity-badge--mythical  { background: rgba(192,132,252,0.12); color: #c084fc; border: 1px solid rgba(192,132,252,0.25); }
+
+/* Damage bar */
+.dmg-bar-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 140px;
+}
+.dmg-bar {
+  flex: 1;
+  height: 6px;
+  background: rgba(255,255,255,0.07);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.dmg-bar__fill {
+  height: 100%;
+  border-radius: 999px;
+  background: linear-gradient(90deg, var(--accent), #0066ff);
+  transition: width 0.4s ease;
+}
+.dmg-bar__val {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+/* Cooldown pill */
+.cd-pill {
+  display: inline-block;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.08);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+/* No results */
+.skills-no-results {
+  text-align: center;
+  padding: 48px 24px;
+  color: var(--text-muted);
+  font-size: 0.95rem;
+  display: none;
+}
+
+/* Tier legend */
+.tier-legend {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.tier-legend__item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.82rem;
+  color: var(--text-muted);
+}
+
+@media (max-width: 640px) {
+  .skills-table th:nth-child(4),
+  .skills-table td:nth-child(4) { display: none; }
+  .skills-table th:nth-child(5),
+  .skills-table td:nth-child(5) { display: none; }
+}
