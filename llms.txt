@@ -4,10 +4,11 @@
 
 ## Core Pages
 
-- [Home (English)](https://titanfishing.org/en/): Game overview, features, how to play, and FAQ for Titan Fishing on Roblox.
+- [Home (English)](https://titanfishing.org/): Game overview, features, how to play, and FAQ for Titan Fishing on Roblox.
 - [Home (Vietnamese)](https://titanfishing.org/vi/): Trang chủ tiếng Việt — giới thiệu game Câu Cá Vạn Cân, hướng dẫn chơi và FAQ.
-- [Codes (English)](https://titanfishing.org/en/codes/): All working Titan Fishing redeem codes for 2026 — free money, rod skins, Mythical Books, and luck boosts.
+- [Codes (English)](https://titanfishing.org/codes/): All working Titan Fishing redeem codes for 2026 — free money, rod skins, Mythical Books, and luck boosts.
 - [Codes (Vietnamese)](https://titanfishing.org/vi/codes/): Tất cả code Câu Cá Vạn Cân còn hoạt động năm 2026 — tiền miễn phí, skin cần câu, Sách Huyền Thoại.
+- [Skill Tier List](https://titanfishing.org/skills/): All 19 ranked Titan Fishing skills — damage, cooldown, and combo guide.
 
 ## Active Codes (as of March 2026)
 

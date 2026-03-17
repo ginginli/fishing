@@ -78,10 +78,11 @@ User-agent: YandexGPT
 # Naver (Korea)
 User-agent: Yeti
 
-Allow: /en/
+Allow: /
 Allow: /vi/
-Allow: /en/codes/
+Allow: /codes/
 Allow: /vi/codes/
+Allow: /skills/
 Allow: /llms.txt
 Allow: /llms-full.txt
 Allow: /sitemap.xml

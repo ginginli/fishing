@@ -3,7 +3,7 @@
 > Titan Fishing (Vietnamese: Câu Cá Vạn Cân) is a deep-sea fishing adventure on Roblox developed by TGaming. This unofficial fan site covers game guides, working redeem codes, tips, and FAQs in English and Vietnamese.
 
 Site URL: https://titanfishing.org
-Languages: English (/en/), Vietnamese (/vi/)
+Languages: English (/), Vietnamese (/vi/)
 
 ---
 
@@ -72,9 +72,9 @@ A: Every 30 minutes. All players on the server can participate and earn top-tier
 
 ## Site Structure
 
-- https://titanfishing.org/ — auto language redirect (vi → /vi/, others → /en/)
-- https://titanfishing.org/en/ — English homepage
+- https://titanfishing.org/ — English homepage
 - https://titanfishing.org/vi/ — Vietnamese homepage
-- https://titanfishing.org/en/codes/ — English codes page
+- https://titanfishing.org/codes/ — English codes page
 - https://titanfishing.org/vi/codes/ — Vietnamese codes page
+- https://titanfishing.org/skills/ — Skill tier list (English)
 - https://titanfishing.org/sitemap.xml — XML sitemap
