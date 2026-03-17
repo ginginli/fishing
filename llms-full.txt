@@ -77,4 +77,5 @@ A: Every 30 minutes. All players on the server can participate and earn top-tier
 - https://titanfishing.org/codes/ — English codes page
 - https://titanfishing.org/vi/codes/ — Vietnamese codes page
 - https://titanfishing.org/skills/ — Skill tier list (English)
+- https://titanfishing.org/vi/skills/ — Danh sách kỹ năng (Vietnamese)
 - https://titanfishing.org/sitemap.xml — XML sitemap

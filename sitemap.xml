@@ -42,4 +42,12 @@
     <priority>0.8</priority>
   </url>
 
+  <url>
+    <loc>https://titanfishing.org/vi/skills/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://titanfishing.org/skills/"/>
+    <xhtml:link rel="alternate" hreflang="vi" href="https://titanfishing.org/vi/skills/"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
 </urlset>
